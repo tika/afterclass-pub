@@ -1,0 +1,6 @@
+{
+  "extends": "@afterclass/typescript-config/base.json",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+NEVER write comments in REACT code. No comments like `{/* ... */}` or `// ...`
+ALWAYS use TailwindCSS classes instead of inline styles.
+Use the Radix UI color scale

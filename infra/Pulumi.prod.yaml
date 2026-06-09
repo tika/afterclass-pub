@@ -1,0 +1,51 @@
+config:
+  afterclass:clerk-secret-key:
+    secure: AAABAETVkbUGVGoQFfORlWkCDwQrVu73Xp2U7q9QpxaFcjm+V+nprZ4LQvCN7JjGNy6XDMxKUsOw+HjclrB90LGDcOBZVxjQ1dtx0AGfmAn/2w==
+  afterclass:clerk-public-key:
+    secure: AAABAL8NqxDmke7psfaz5gomWnwjcTyjhzXbs+Le9U1BAoxCbCfr+RAQ3Rj7R18NiIcgsyBEj99ymNViFpRZmnCKzhqwgQ==
+  afterclass:resend-api-key:
+    secure: AAABAED/IRgS1E6DDcGBjPmiYIRLLzyeWlHQiZ1tQ9Zm+p7vMksor6dqFAe9MmsuOuJLoJeiF75rnZju5VpJILiUukQ=
+  afterclass:afterclass-api-key:
+    secure: AAABACJbfyLIuLWvnUHNc68SREC0GTpvy6vjyuk0JPF7gdGZ1VVe6lqCNL+VansW1HOK+4dTuoQ43V3Dfll0KyOENvZGCuc0SshOUA==
+  afterclass:cookie-secret:
+    secure: AAABAFUbOwuSKnD7l2asYH00QINyAXxqDoRIvmCFV9z0fCaypBg8bNO7GyDHSytsjH1xacoc6OMXkyoPArw8F3MNl8U=
+  afterclass:apns-key-id: RMBPW63869
+  afterclass:apns-team-id: P63ZVX4JE9
+  afterclass:apns-bundle-id: rsvp.afterclass.ios
+  afterclass:apns-key-p8:
+    secure: AAABADkVda70+qS+6Vqm+97dxuqB67t8R464AhiurlEgBveuP8GBLFkE9LpeJi4qjOU+gV4h9R1XQGE=
+  afterclass:google-genai-api-key:
+    secure: AAABAFV9pmIwhB222yA9KyEJj5jap5VidzNFA+qIrnRC86FhFWDojxYtb4ZhMHttwBOA5kjvT4vsDI4tIu1KGU6+9MfMduE=
+  afterclass:better-stack-source-token:
+    secure: AAABAMwtqv4i3jmDT3oqM0U0gbjRSB3wrXrsyt40kd57900js6LCMuP7ygc/Ru6GxQ9dXcfYPFs=
+  afterclass:sentry-dsn:
+    secure: AAABAJmbJW7PxlStIHdOHAY0bf5t0CR5ei8EwvUya9U8tQ7JnrfPKfvLjAXqk3sFxJ8KLU9vPoF4/CwZRwx8GxMFjGEyPzEDjdUYgUXedP4jEcdCZoAetvItnSly+NMj/I8gBGM+iWHL336XPQw=
+  afterclass:upstash-redis-token:
+    secure: AAABAAl3WDmOS7EI9OKVIe80aVwedl4sYWbZsaWO0o6QDZVylBZev2hkvyxWCdFSfbozzA9qDyK5GAbuR78nstrRQEQXKVAJUcA0AD0GymyTvG8XAYbO1pZMdiJHusY=
+  afterclass:upstash-redis-url:
+    secure: AAABAOAiJ6xpAJhBlzvTUsp2fxZYLE/itdILb1EyoNJtZVp3954QdaEMknT84PsWok+xNky9KmqQArI6GeNgjiP2GTwkg1hlI4o=
+  afterclass:cerebras-api-key:
+    secure: AAABAINxiWo50iDrF3t0E4kOGWmT8nzMA9Ha+9qJtpGInOrYCTQJlfUDFp4JYLwwih8NcUXUsxbRKj5muhjAhfTNb2raJCuzvqPAAZsEATzEWFT1
+  afterclass:database-runtime-url:
+    secure: AAABAIushgvH43Z/07EIlIm6Uzg7ySJYDJnKqPHCl7yADhueE+9f3S87Dk7YKnGMjHiSt9gqPEfOg2M7LZsHIGPEM6GGE35xi9ph5HQqe6M8F6yS0I3jSKzOySDNPQW5PI8uiYphK+JPHN47qU4pkW+t0xtcIavVH1fVx8vHmG66bSB7PZ8KxL0lMJBjP36VVv0iAgQaxEajMzNnZgN2kL2HczuOUAEu/OvY2FhzgDjCgA==
+  afterclass:database-owner-url:
+    secure: AAABAI8hJ9YG/4Q6IdAY2jZEr4Wmg1QE14Gx+2rVY+riZSczxf7jxxvWpIS0JEvMl1vlek9F3bVAr7ZtS8XVnBCqXa5X4gmG6nVHaV2eqqaQaZPO+bT+mXk41hqDyd5WL9Mfnkji37Fbh1lPNwQJkBvfdMxZRsPRk2FyUN3ChDyzdW5CjELndCbHExYiQvEQKeVYOSFwK7Q7bEGVHbAjoVuFW7IVYYAMg3txdrUOysAJPIrtgj8=
+  afterclass:openai-api-key:
+    secure: AAABAJikGV1Fq4lDxUXmt5joMc2gSg5p2+uXg0hzfjsNzh3yJGgv8WqOFUjlsWeIHo4fz0HBxonq3/hb2sQt7+lJA+lnIkl3hEHi3lE0x+qCFbsypei0mYzmc0FDoPqBc/z/r3TxQ+a4ycxQg5uIjIDgj88uFpACdFpeJGXsyqGXNvtKlc2AJFVkuaujGzzrvZp91UZOEniO1m5NM48J1jzz/fKADuaMxj0RSNG8hxJU8Me0lQ7aWTBGkz6cOpT0EuUbHQ==
+  afterclass:google-maps-api-key:
+    secure: AAABAHf/dcqi7bxkBwqeC5I1RBActF9Oqv9VZGKfbCti5ehwG6ItSxSKkToGSPRZz8jlVdUGohVWA50Bk/YpOJRl+UxbTAg=
+  aws:region: us-east-1
+  afterclass:better-auth-secret:
+    secure: AAABAKvGl8S1CdY9ap3pImcqfk39LRiB8C71BHgSCqpLbw4zIndLVzutUF0V6XPDwXZjJZa0+oVCB3SS+P9Wgm9pLY37Nr455L47lA==
+  afterclass:better-auth-url:
+    secure: AAABAJkS7yYAvAqvs/JIJ/tGSuVmsFJ0c0AkhNWzBbMuZ06F90COi6a0ebqdGw7e+5Nbm5IDkclvfNxEt8ZNfURTzh9fG6zg1twukAc+dGLMv3aCsZqPeiyQ6Pgg3kdeZ64ve84=
+  afterclass:resend-from-email:
+    secure: AAABAJ3PX3ieLT2kU1mzWvvOOz77APag5ZhwcZ8SD2C/gsiyo4mPNZYyLvs0ANmpUt0RrugS7g==
+  afterclass:twilio-account-sid:
+    secure: AAABAIQ6PTn2nZutlLriP2nKt+XGhOXiQREGHtJyE56Q/mMWtLYEA1tSoJM8LyOPAOKcBnJxSc34vrvUHD8iIe6t
+  afterclass:twilio-auth-token:
+    secure: AAABALelWwwmTsbCsWeQw+YyozEaspxCdWgPT2MPzqHag5kdIQDV3cqYl+RI9mW1bNwavz4z9V4zcGBnm1JuLg==
+  afterclass:twilio-verify-service-sid:
+    secure: AAABAC1sobZ/sOtdwKh7sKA6wBrE21ACts2kBpxNdZFDF+KeAdkR7AMsxNtjGdj+olKrOyxf2v/7vd9uwMzJkewB
+  afterclass:posthog-api-key:
+    secure: AAABAOVgt7Tvf5c2TW77AXKxS5+P2DblW1ELgsE9ye4UphK9VQXshDP0CuqMbIoHierrobjMwpW8TZgSQ87oxLE5/1YFFvclWsuHoMyuYA==

@@ -1,0 +1,11 @@
+{
+  "extends": "@afterclass/typescript-config/node.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

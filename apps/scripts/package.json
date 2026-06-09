@@ -1,0 +1,26 @@
+{
+  "name": "@afterclass/scripts",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "backfill:events": "tsx src/backfillEvents.ts",
+    "backfill:embeddings": "tsx src/backfillEmbeddings.ts",
+    "backfill:orgs": "tsx src/backfillOrgs.ts",
+    "backfill:slugs": "tsx src/backfillSlugsAndPublicIds.ts",
+    "re-geocode": "tsx src/reGeocodeEvents.ts",
+    "format:orgs": "tsx src/formatOrgs.ts",
+    "verify:better-auth": "tsx src/verifyUsersForBetterAuth.ts"
+  },
+  "dependencies": {
+    "@afterclass/core": "workspace:*",
+    "@google/genai": "^1.38.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "postgres": "^3.4.8"
+  },
+  "devDependencies": {
+    "@afterclass/typescript-config": "workspace:*",
+    "@types/node": "catalog:",
+    "tsx": "^4"
+  }
+}

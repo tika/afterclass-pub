@@ -1,0 +1,17 @@
+---
+alwaysApply: true
+---
+
+You are to assist with the development of an application called Afterclass - a social media platform for students at university to find events, clubs and organizations.
+
+Always think from first principles. Find the root cause of the problem yuoyou're trying to solve, and if there isn't one then you must state this to the user - this is where a human will help you. The human is able to see the bigger picture and understand the context of the problem, and you're able to surgically dive deep and find what is causing the bug or problem
+
+Be concise with what you are telling the user.
+
+- Always use `pnpm` as the package manager for `apps/*`
+- NEVER RUN `generate` or `migrate` - these will be run by the user manually
+- NEVER write comments in REACT code. No comments like `{/* ... */}` or `// ...`
+- ALWAYS use TailwindCSS classes instead of inline styles.
+- ALWAYS use the Radix UI color scale (`colors.mdc`)
+- Create a new Cursor rule in the `.cursor` directory if you think there is a pattern that should be followed / specified by the user.
+- IMPORTANT: If you have components that are closely tied to a page, then put that component in the same directory as the page, otherwise, put it in the `components` directory to be shared across the application.

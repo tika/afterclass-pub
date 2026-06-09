@@ -1,0 +1,12 @@
+{
+  "extends": "@afterclass/typescript-config/node.json",
+  "compilerOptions": {
+    "lib": ["es2022", "DOM"],
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@afterclass/api/*": ["../../apps/api/src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

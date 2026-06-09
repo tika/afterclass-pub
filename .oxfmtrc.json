@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "indentStyle": "space",
+  "indentWidth": 4,
+  "quoteStyle": "double",
+  "semicolons": true,
+  "trailingCommas": "es5",
+  "jsxQuoteStyle": "double",
+  "organizeImports": true,
+  "tailwindCSS": true,
+  "ignorePatterns": ["**/*.json"]
+}

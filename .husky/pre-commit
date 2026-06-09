@@ -1,0 +1,2 @@
+# cd apps/api && pnpm db:check
+pnpm oxfmt

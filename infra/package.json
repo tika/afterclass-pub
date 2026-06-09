@@ -1,0 +1,17 @@
+{
+  "name": "@afterclass/infra",
+  "main": "index.ts",
+  "dependencies": {
+    "@afterclass/config": "workspace:*",
+    "@pulumi/aws": "^7.0.0",
+    "@pulumi/awsx": "^3.0.0",
+    "@pulumi/command": "^1.1.3",
+    "@pulumi/planetscale": "file:sdks/planetscale",
+    "@pulumi/pulumi": "^3.113.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "^18",
+    "typescript": "^5.0.0"
+  }
+}

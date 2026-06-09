@@ -1,0 +1,57 @@
+name: Migrate Database
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # Required for AWS OIDC
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Verify both database URLs exist in SSM
+        run: |
+          for param in database-runtime-url database-owner-url; do
+            aws ssm get-parameter --name "/afterclass/prod/$param" --with-decryption --query "Parameter.Name" --output text || {
+              echo "::error::Missing SSM parameter: /afterclass/prod/$param"
+              exit 1
+            }
+          done
+          echo "✓ Both database-runtime-url and database-owner-url are set"
+
+      - name: Fetch DATABASE_OWNER_URL from SSM (afterclass_owner for migrations)
+        run: |
+          DATABASE_OWNER_URL=$(aws ssm get-parameter \
+            --name "/afterclass/prod/database-owner-url" \
+            --with-decryption \
+            --query "Parameter.Value" \
+            --output text)
+          echo "::add-mask::$DATABASE_OWNER_URL"
+          echo "DATABASE_OWNER_URL=$DATABASE_OWNER_URL" >> $GITHUB_ENV
+
+      - name: Run Migrations
+        run: pnpm db:migrate
+        working-directory: packages/core

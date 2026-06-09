@@ -1,0 +1,20 @@
+packages:
+  - apps/*
+  - packages/*
+  - infra
+onlyBuiltDependencies:
+  - "@clerk/shared"
+  - "@pulumi/command"
+  - "@pulumi/docker-build"
+  - "@pulumi/docker"
+  - "@pulumi/planetscale"
+  - "@sentry/cli"
+  - canvas
+  - core-js
+  - esbuild
+  - protobufjs
+  - sharp
+catalog:
+  "@types/aws-lambda": 8.10.160
+  "@types/node": ^22.0.0
+  zod: ^4.1.13

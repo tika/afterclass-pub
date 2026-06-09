@@ -1,0 +1,53 @@
+{
+  "name": "test",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "build": "turbo run build",
+    "check-types": "turbo run check-types",
+    "db:studio": "cd apps/api && pnpm run db:studio",
+    "dev": "turbo run dev",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint --fix .",
+    "format": "oxfmt --check",
+    "format:fix": "oxfmt .",
+    "check": "oxlint . && oxfmt --check",
+    "check:fix": "oxlint --fix . && oxfmt .",
+    "audit-deps": "node scripts/audit-deps.mjs"
+  },
+  "devDependencies": {
+    "@afterclass/typescript-config": "workspace:*",
+    "husky": "^9.1.7",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "turbo": "^2.8.13",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": "22.x",
+    "pnpm": ">=10.0.0 <11.0.0"
+  },
+  "engineStrict": true,
+  "packageManager": "pnpm@10.30.3",
+  "pnpm": {
+    "patchedDependencies": {
+      "mage-icons-react@0.7.0-beta": "patches/mage-icons-react@0.7.0-beta.patch"
+    }
+  },
+  "trustedDependencies": [
+    "@clerk/shared",
+    "browser-tabs-lock",
+    "core-js",
+    "@pulumi/command",
+    "@pulumi/docker-build",
+    "@pulumi/docker",
+    "@sentry/cli",
+    "canvas",
+    "esbuild",
+    "protobufjs",
+    "sharp"
+  ],
+  "dependencies": {
+    "twilio": "^5.13.0"
+  }
+}

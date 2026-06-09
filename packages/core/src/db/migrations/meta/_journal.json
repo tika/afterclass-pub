@@ -1,0 +1,223 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1764351766376,
+      "tag": "0000_jittery_surge",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1764801377287,
+      "tag": "0001_mute_prism",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1764802370009,
+      "tag": "0002_reflective_warbird",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1764805361652,
+      "tag": "0003_flimsy_darkhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1764886127723,
+      "tag": "0004_foamy_marvel_zombies",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1765511347022,
+      "tag": "0005_woozy_ink",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1765585213240,
+      "tag": "0006_absent_captain_universe",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1765598587914,
+      "tag": "0007_happy_tarantula",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1765674208535,
+      "tag": "0008_long_firedrake",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1766255878244,
+      "tag": "0009_overconfident_johnny_blaze",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1767053833392,
+      "tag": "0010_remove_cover_image",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1767475664737,
+      "tag": "0011_solid_next_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1769148704827,
+      "tag": "0012_lying_james_howlett",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1770515600872,
+      "tag": "0013_safe_squadron_supreme",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1770785096866,
+      "tag": "0014_lowly_runaways",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1771122873145,
+      "tag": "0015_naive_queen_noir",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1771134183262,
+      "tag": "0016_smiling_valkyrie",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1771175639511,
+      "tag": "0017_equal_dorian_gray",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1771902588662,
+      "tag": "0018_major_search_vectors",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1771907355498,
+      "tag": "0019_convert_major_to_majors_array",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1771907400000,
+      "tag": "0020_enable_pgvector",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1771907400001,
+      "tag": "0021_add_embedding_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1772602695387,
+      "tag": "0022_fantastic_sasquatch",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1772674301083,
+      "tag": "0023_quick_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1741392000000,
+      "tag": "0024_better_auth_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1772952716182,
+      "tag": "0025_worried_prima",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1773031224098,
+      "tag": "0026_add_user_interests",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1773375685794,
+      "tag": "0027_gifted_skullbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1773378851124,
+      "tag": "0028_previous_rocket_raccoon",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1773454670276,
+      "tag": "0029_remove-avatar-urls",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1773590110195,
+      "tag": "0030_smooth_switch",
+      "breakpoints": true
+    }
+  ]
+}
